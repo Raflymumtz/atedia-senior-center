@@ -1,0 +1,194 @@
+{
+  "home": {
+    "heroTitle": "Welcome to",
+    "heroSubtitle": "Atedia Senior Center",
+    "tagline": "\"Berdaya, Berkarya & Bahagia\"",
+    "sectionTitle": "Meningkatkan Kualitas Hidup dengan Perawatan Profesional",
+    "sectionSubtitle": "Keistimewaan yang Kami Hadirkan",
+    "features": [
+      {
+        "title": "Aman",
+        "description": "Lingkungan terjaga dengan sistem dan pendampingan yang penuh perhatian.",
+        "id": "0",
+        "order": 0
+      },
+      {
+        "title": "Asri",
+        "description": "Suasana nyaman, bersih, dan menenangkan untuk kualitas hidup yang lebih baik.",
+        "id": "1",
+        "order": 1
+      },
+      {
+        "title": "Akrab",
+        "description": "Kebersamaan yang terjalin dengan kasih, menghadirkan rasa memiliki dan ketenangan hati.",
+        "id": "2",
+        "order": 2
+      }
+    ],
+    "mengapaHarusTitle": "Mengapa Harus Atedia?",
+    "mengapaHarusBullets": [
+      "Tempat tinggal yang menghadirkan ketenangan, kenyamanan, dan rasa aman bagi orang tua Anda.",
+      "Tenaga ahli yang berdedikasi untuk mendampingi dan merawat lansia dengan penuh perhatian.",
+      "Program dan fasilitas yang mendukung kebutuhan fisik, emosional, dan sosial secara menyeluruh."
+    ],
+    "mengapaHarusImage": "/uploads/1771401935423-image_4.png",
+    "temukanKenyamananTitle": "Temukan Kenyamanan Sejati",
+    "temukanKenyamananImage": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=800",
+    "featuresTitle": "Keistimewaan yang Kami Hadirkan",
+    "introParagraph1": "Di Atedia, kami percaya masa tua adalah anugerah, kesempatan untuk \nmenikmati hidup dengan penuh arti. Kami hadir untuk membantu \nmenjalani hari-hari dengan aman, nyaman, dan tetap mandiri, \ndi tengah komunitas yang saling mendukung.",
+    "introParagraph2": "Dengan lingkungan yang hangat dan berkualitas, orang tua dapat \ntetap berkarya, bersosialisasi.  Atedia membuat masa tua \nmenjadi momen yang damai, bermakna, dan menyenangkan.",
+    "heroImage": "/uploads/1771395651498-old-senior-asian-friends-retired-people-hapiness-positive-laugh-smile-conversati.jpg",
+    "sectionTitleBackgroundImage": "/uploads/1771398964863-Slogan.png"
+  },
+  "services": [
+    {
+      "id": "1",
+      "title": "Perawatan 24 Jam",
+      "description": "Tim pendamping terlatih siap mendampingi kebutuhan sehari-hari dengan penuh perhatian.",
+      "order": 1
+    },
+    {
+      "id": "2",
+      "title": "Kesehatan & Medis",
+      "description": "Klinik kesehatan, fisioterapi, dan layanan medis yang terintegrasi.",
+      "order": 2
+    },
+    {
+      "id": "3",
+      "title": "Aktivitas & Rekreasi",
+      "description": "Beragam kegiatan untuk menjaga kebugaran dan kebahagiaan warga.",
+      "order": 3
+    }
+  ],
+  "facilitiesMain": [
+    {
+      "id": "1",
+      "title": "Kamar Nyaman",
+      "description": "Kamar tidur dengan fasilitas lengkap dan akses ramah difabel.",
+      "order": 0
+    },
+    {
+      "id": "2",
+      "title": "Taman & Area Hijau",
+      "description": "Lingkungan asri untuk bersantai dan berjalan kaki.",
+      "order": 1
+    },
+    {
+      "id": "3",
+      "title": "Ruang Bersama",
+      "description": "Ruang berkumpul, ruang makan, dan area rekreasi.",
+      "order": 2
+    },
+    {
+      "id": "1771379538577",
+      "title": "tgrssrse",
+      "description": "feesesfesf",
+      "order": 3
+    }
+  ],
+  "facilitiesOther": [
+    {
+      "id": "1",
+      "title": "Living & Dining Room",
+      "image": "https://images.unsplash.com/photo-1555244162-803834f70033?w=800",
+      "order": 0
+    },
+    {
+      "id": "2",
+      "title": "Perawat & Bantuan Teknis",
+      "image": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800",
+      "order": 1
+    },
+    {
+      "id": "3",
+      "title": "Area Publik & Ruang Sosial",
+      "image": "https://images.unsplash.com/photo-1567767292278-a4f21aa2d36e?w=800",
+      "order": 2
+    },
+    {
+      "id": "4",
+      "title": "Taman",
+      "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800",
+      "order": 3
+    }
+  ],
+  "activities": [
+    {
+      "id": "1",
+      "title": "Senam Ringan",
+      "description": "Olahraga rutin untuk menjaga kebugaran tubuh.",
+      "date": "Setiap Senin & Kamis",
+      "order": 1
+    },
+    {
+      "id": "2",
+      "title": "Kegiatan Kreatif",
+      "description": "Melukis, kerajinan tangan, dan kegiatan seni lainnya.",
+      "date": "Setiap Selasa",
+      "order": 2
+    },
+    {
+      "id": "3",
+      "title": "Bersosialisasi",
+      "description": "Acara berkumpul, ngobrol, dan permainan kelompok.",
+      "date": "Setiap minggu",
+      "order": 3
+    }
+  ],
+  "gallery": [
+    {
+      "id": "1",
+      "image": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=800",
+      "caption": "Senam bersama",
+      "order": 0
+    },
+    {
+      "id": "2",
+      "image": "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800",
+      "caption": "Aktivitas kelompok",
+      "order": 1
+    },
+    {
+      "id": "3",
+      "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800",
+      "caption": "Waktu di taman",
+      "order": 2
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "name": "Keluarga Bapak S.",
+      "quote": "Alhamdulillah sejak Ibu tinggal di Atedia, kami tenang. Lingkungannya nyaman dan staf sangat perhatian.",
+      "role": "Keluarga residen",
+      "order": 1
+    },
+    {
+      "id": "2",
+      "name": "Ibu Dewi",
+      "quote": "Saya betah di sini. Banyak teman, kegiatannya seru, dan perawatannya bagus.",
+      "role": "Residen",
+      "order": 2
+    }
+  ],
+  "about": {
+    "title": "Tentang Atedia Senior Center",
+    "description": "Di Atedia, kami percaya masa tua adalah anugerah, kesempatan untuk menikmati hidup dengan penuh arti. Kami hadir untuk membantu menjalani hari-hari dengan aman, nyaman, dan tetap mandiri, di tengah komunitas yang saling mendukung. Dengan lingkungan yang hangat dan berkualitas, orang tua dapat tetap berkarya dan bersosialisasi. Atedia membuat masa tua menjadi momen yang damai, bermakna, dan menyenangkan.",
+    "tagline": "Meningkatkan Kualitas Hidup dengan Perawatan Profesional",
+    "mission": "Meningkatkan kualitas hidup lansia melalui perawatan profesional, lingkungan yang aman dan asri, serta kebersamaan yang akrab.",
+    "vision": "Menjadi pusat perawatan lansia terpercaya yang menghadirkan rasa nyaman seperti di rumah sendiri.",
+    "address": "Alamat lengkap Atedia Senior Center",
+    "phone": "+62 xxx xxxx xxxx",
+    "email": "info@atediaseniorcenter.com",
+    "hours": "Senin–Sabtu (08.00–17.00)",
+    "whatsapp": "628113471778",
+    "mapEmbedUrl": "https://www.google.com/maps?q=-7.3215833,112.6715061&z=17&output=embed",
+    "directionsUrl": "https://maps.app.goo.gl/3Rp7ajpccJuPQWJP7",
+    "infoItems": [
+      "Program harian & aktivitas sosial",
+      "Pendampingan dan layanan ramah lansia",
+      "Lingkungan aman, nyaman, dan bersih"
+    ],
+    "footerBannerImage": "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800"
+  }
+}

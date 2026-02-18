@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --atedia-warm: #C4A77D;
+  --atedia-cream: #F5F0E8;
+  --atedia-sage: #8B9A7D;
+  --atedia-brown: #6B5344;
+  --atedia-gold: #B8860B;
+}
+
+body {
+  @apply bg-atedia-cream text-atedia-brown antialiased;
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-atedia-sage text-white px-6 py-2.5 rounded-lg hover:bg-atedia-brown transition-colors;
+  }
+  .btn-secondary {
+    @apply border-2 border-atedia-sage text-atedia-sage px-6 py-2.5 rounded-lg hover:bg-atedia-sage hover:text-white transition-colors;
+  }
+  /* Gaya seragam: Caveat, besar, bold, hijau kekuningan - untuk tagline & section title */
+  .caveat-heading {
+    font-family: var(--font-caveat), "Caveat", cursive !important;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    color: #cbe892 !important;
+  }
+  .section-title {
+    font-family: var(--font-caveat), "Caveat", cursive !important;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    color: #cbe892 !important;
+    @apply mb-6;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-md p-6 border border-atedia-cream;
+  }
+  .hero-tagline {
+    font-family: var(--font-caveat), "Caveat", cursive !important;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    color: #cbe892 !important;
+  }
+}
