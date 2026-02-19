@@ -10,21 +10,21 @@ export default function FacilitiesPage() {
   const other = [...(data.facilitiesOther || [])].sort((a, b) => a.order - b.order);
   const gallery = [...(data.gallery || [])].sort((a, b) => a.order - b.order);
   const activities = [...(data.activities || [])].sort((a, b) => a.order - b.order);
-  
+
   // Ambil gambar untuk carousel dari gallery atau facilitiesMain
   const carouselImages = gallery
     .filter((g) => g.image)
     .map((g) => g.image!)
     .slice(0, 5);
-  
+
   // Jika gallery kosong, gunakan gambar dari facilitiesMain
   const fallbackImages = main
     .filter((f) => f.image)
     .map((f) => f.image!)
     .slice(0, 5);
-  
+
   const images = carouselImages.length > 0 ? carouselImages : fallbackImages;
-  
+
   // Gambar untuk carousel aktivitas
   const activityImages = activities
     .filter((a) => a.image)
@@ -67,8 +67,8 @@ export default function FacilitiesPage() {
               <span className="block">Rasa Tenang</span>
             </h1>
             <p className="text-base md:text-lg leading-relaxed text-[#F3F4F6]">
-            Memberikan dukungan hunian penuh waktu dengan pendampingan menyeluruh setiap hari menghadirkan kenyamanan, keamanan, dan perhatian yang konsisten.
-              </p>
+              Memberikan dukungan hunian penuh waktu dengan pendampingan menyeluruh setiap hari menghadirkan kenyamanan, keamanan, dan perhatian yang konsisten.
+            </p>
           </div>
         </div>
       </section>

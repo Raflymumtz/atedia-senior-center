@@ -104,6 +104,8 @@ export interface AboutContent {
 export interface SiteData {
   home: HomeContent;
   services: Service[];
+  /** Gambar background untuk hero banner halaman services */
+  servicesHeroImage?: string;
   facilitiesMain: FacilityMain[];
   facilitiesOther: FacilityOther[];
   /** Gambar background untuk hero banner halaman facilities */

@@ -93,6 +93,7 @@ const defaultData: SiteData = {
       order: 2,
     },
   ],
+  servicesHeroImage: IMG.caregiver,
   facilitiesMain: [
     {
       id: "1",
