@@ -39,6 +39,22 @@ export interface Service {
   order: number;
 }
 
+// Halaman Service - hero + section Layanan Profesional Kami
+export interface ServicePageContent {
+  heroTitle: string;
+  heroCaption: string;
+  /** Gambar background hero (bisa banyak untuk carousel auto-slide) */
+  heroSlides: string[];
+  /** Judul section "Layanan Profesional Kami" */
+  sectionTitle: string;
+  /** Caption paragraf 1 */
+  sectionCaption1: string;
+  /** Caption paragraf 2 */
+  sectionCaption2: string;
+  /** Gambar carousel di section (bisa banyak, auto-slide) */
+  carouselSlides: string[];
+}
+
 // Facilities - Fasilitas Kami + Fasilitas Lainnya
 export interface FacilityMain {
   id: string;
@@ -99,12 +115,18 @@ export interface AboutContent {
   whatsapp?: string;
   infoItems?: string[];
   footerBannerImage?: string;
+  /** Gambar background footer (opsional) */
+  footerBackgroundImage?: string;
+  /** Warna background footer (hex, mis. #5c4a3d). Dipakai jika tidak ada gambar. Kosong = default atedia-brown */
+  footerBackgroundColor?: string;
 }
 
 export interface SiteData {
   home: HomeContent;
   services: Service[];
-  /** Gambar background untuk hero banner halaman services */
+  /** Konten halaman Service (hero + section Layanan Profesional) */
+  servicePage?: ServicePageContent;
+  /** @deprecated Gunakan servicePage.heroSlides */
   servicesHeroImage?: string;
   facilitiesMain: FacilityMain[];
   facilitiesOther: FacilityOther[];

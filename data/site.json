@@ -2,29 +2,12 @@
   "home": {
     "heroTitle": "Welcome to",
     "heroSubtitle": "Atedia Senior Center",
+    "introParagraph1": "Di Atedia, kami percaya masa tua adalah anugerah, kesempatan untuk \nmenikmati hidup dengan penuh arti. Kami hadir untuk membantu \nmenjalani hari-hari dengan aman, nyaman, dan tetap mandiri, \ndi tengah komunitas yang saling mendukung.",
+    "introParagraph2": "Dengan lingkungan yang hangat dan berkualitas, orang tua dapat \ntetap berkarya, bersosialisasi.  Atedia membuat masa tua \nmenjadi momen yang damai, bermakna, dan menyenangkan.",
     "tagline": "\"Berdaya, Berkarya & Bahagia\"",
+    "heroImage": "/uploads/1771395651498-old-senior-asian-friends-retired-people-hapiness-positive-laugh-smile-conversati.jpg",
     "sectionTitle": "Meningkatkan Kualitas Hidup dengan Perawatan Profesional",
-    "sectionSubtitle": "Keistimewaan yang Kami Hadirkan",
-    "features": [
-      {
-        "title": "Aman",
-        "description": "Lingkungan terjaga dengan sistem dan pendampingan yang penuh perhatian.",
-        "id": "0",
-        "order": 0
-      },
-      {
-        "title": "Asri",
-        "description": "Suasana nyaman, bersih, dan menenangkan untuk kualitas hidup yang lebih baik.",
-        "id": "1",
-        "order": 1
-      },
-      {
-        "title": "Akrab",
-        "description": "Kebersamaan yang terjalin dengan kasih, menghadirkan rasa memiliki dan ketenangan hati.",
-        "id": "2",
-        "order": 2
-      }
-    ],
+    "sectionTitleBackgroundImage": "/uploads/1771398964863-Slogan.png",
     "mengapaHarusTitle": "Mengapa Harus Atedia?",
     "mengapaHarusBullets": [
       "Tempat tinggal yang menghadirkan ketenangan, kenyamanan, dan rasa aman bagi orang tua Anda.",
@@ -33,33 +16,71 @@
     ],
     "mengapaHarusImage": "/uploads/1771401935423-image_4.png",
     "temukanKenyamananTitle": "Temukan Kenyamanan Sejati",
-    "temukanKenyamananImage": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=800",
+    "temukanKenyamananImage": "/images/Temukan Kenyamanan Sejati.png",
     "featuresTitle": "Keistimewaan yang Kami Hadirkan",
-    "introParagraph1": "Di Atedia, kami percaya masa tua adalah anugerah, kesempatan untuk \nmenikmati hidup dengan penuh arti. Kami hadir untuk membantu \nmenjalani hari-hari dengan aman, nyaman, dan tetap mandiri, \ndi tengah komunitas yang saling mendukung.",
-    "introParagraph2": "Dengan lingkungan yang hangat dan berkualitas, orang tua dapat \ntetap berkarya, bersosialisasi.  Atedia membuat masa tua \nmenjadi momen yang damai, bermakna, dan menyenangkan.",
-    "heroImage": "/uploads/1771395651498-old-senior-asian-friends-retired-people-hapiness-positive-laugh-smile-conversati.jpg",
-    "sectionTitleBackgroundImage": "/uploads/1771398964863-Slogan.png"
+    "features": [
+      {
+        "title": "Aman",
+        "description": "Lingkungan terjaga dengan sistem dan pendampingan yang penuh perhatian.",
+        "id": "0",
+        "order": 0,
+        "image": "/uploads/1771472538398-image_5.png"
+      },
+      {
+        "title": "Asri",
+        "description": "Suasana nyaman, bersih, dan menenangkan untuk kualitas hidup yang lebih baik.",
+        "id": "1",
+        "order": 1,
+        "image": "/uploads/1771472542705-image_5__2_.png"
+      },
+      {
+        "title": "Akrab",
+        "description": "Kebersamaan yang terjalin dengan kasih, menghadirkan rasa memiliki dan ketenangan hati.",
+        "id": "2",
+        "order": 2,
+        "image": "/uploads/1771472547997-image_5__1_.png"
+      }
+    ],
+    "sectionSubtitle": "Keistimewaan yang Kami Hadirkan"
   },
   "services": [
     {
       "id": "1",
       "title": "Perawatan 24 Jam",
       "description": "Tim pendamping terlatih siap mendampingi kebutuhan sehari-hari dengan penuh perhatian.",
-      "order": 1
+      "order": 0,
+      "image": "/uploads/1771473541490-elderly-couples-cooking-healthy-food-together.jpg"
     },
     {
       "id": "2",
       "title": "Kesehatan & Medis",
       "description": "Klinik kesehatan, fisioterapi, dan layanan medis yang terintegrasi.",
-      "order": 2
+      "order": 1,
+      "image": "/uploads/1771474078807-image_5__1_.png"
     },
     {
       "id": "3",
       "title": "Aktivitas & Rekreasi",
       "description": "Beragam kegiatan untuk menjaga kebugaran dan kebahagiaan warga.",
-      "order": 3
+      "order": 2,
+      "image": "/uploads/1771474083338-image_5.png"
     }
   ],
+  "servicePage": {
+    "heroTitle": "Pendampingan Sepenuh Hati",
+    "heroCaption": "Kami mendampingi setiap langkah dengan perhatian yang tulus, menciptakan hari-hari yang lebih nyaman, aktif, dan penuh ketenangan.",
+    "heroSlides": [
+      "/uploads/1771474034736-elderly-couples-cooking-healthy-food-together.jpg"
+    ],
+    "sectionTitle": "Layanan Profesional Kami",
+    "sectionCaption1": "Kami menyediakan berbagai layanan profesional yang dirancang khusus untuk memenuhi kebutuhan warga Atedia. Setiap layanan diberikan dengan pendampingan penuh perhatian dan komitmen untuk memberikan kualitas terbaik.",
+    "sectionCaption2": "Dari perawatan kesehatan hingga aktivitas rekreasi, kami memastikan setiap warga mendapatkan dukungan yang dibutuhkan untuk menjalani hari-hari dengan nyaman, aman, dan bahagia. Tim profesional kami siap mendampingi dengan penuh dedikasi.",
+    "carouselSlides": [
+      "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800",
+      "/uploads/1771474107611-image_5.png",
+      "/uploads/1771474112416-image_5__1_.png"
+    ]
+  },
   "servicesHeroImage": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800",
   "facilitiesMain": [
     {
@@ -187,14 +208,22 @@
       "name": "Keluarga Bapak S.",
       "quote": "Alhamdulillah sejak Ibu tinggal di Atedia, kami tenang. Lingkungannya nyaman dan staf sangat perhatian.",
       "role": "Keluarga residen",
-      "order": 1
+      "order": 0
     },
     {
       "id": "2",
       "name": "Ibu Dewi",
       "quote": "Saya betah di sini. Banyak teman, kegiatannya seru, dan perawatannya bagus.",
       "role": "Residen",
-      "order": 2
+      "order": 1
+    },
+    {
+      "id": "1771478241879",
+      "name": "Rafi",
+      "quote": "Saya betah karena dapat makan gratis",
+      "role": "Penghuni",
+      "order": 2,
+      "image": "/uploads/1771478269661-image_4.png"
     }
   ],
   "about": {
@@ -215,6 +244,7 @@
       "Pendampingan dan layanan ramah lansia",
       "Lingkungan aman, nyaman, dan bersih"
     ],
-    "footerBannerImage": "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800"
+    "footerBannerImage": "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800",
+    "footerBackgroundImage": "/uploads/1771478084975-elderly-couples-cooking-healthy-food-together.jpg"
   }
 }

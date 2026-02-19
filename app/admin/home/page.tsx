@@ -230,6 +230,15 @@ export default function AdminHomePage() {
             </button>
           </div>
 
+          <h2 className="font-semibold text-atedia-sage pt-6">Temukan Kenyamanan Sejati (banner)</h2>
+          <div>
+            <AdminImageUpload
+              label="Gambar banner Temukan Kenyamanan Sejati"
+              value={data.temukanKenyamananImage || ""}
+              onChange={(url) => handleChange("temukanKenyamananImage", url)}
+            />
+          </div>
+
           <h2 className="font-semibold text-atedia-sage pt-4">Keistimewaan yang Kami Hadirkan</h2>
           {(data.features || []).map((f, i) => (
             <div key={f.id} className="border rounded-lg p-4 space-y-2">

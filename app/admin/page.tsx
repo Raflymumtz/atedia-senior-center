@@ -33,7 +33,7 @@ export default function AdminPage() {
 
   const sections = [
     { href: "/admin/home", label: "Home", desc: "Teks pembuka & Keistimewaan" },
-    { href: "/admin/services", label: "Service", desc: "Layanan Kami" },
+    { href: "/admin/service", label: "Service", desc: "Hero, daftar layanan, Layanan Profesional Kami" },
     { href: "/admin/facilities", label: "Facilities", desc: "Fasilitas Kami & Lainnya" },
     { href: "/admin/activities", label: "Activities", desc: "Aktivitas & Galeri" },
     { href: "/admin/testimonials", label: "Testimoni", desc: "Testimoni warga" },
