@@ -106,6 +106,8 @@ export interface SiteData {
   services: Service[];
   facilitiesMain: FacilityMain[];
   facilitiesOther: FacilityOther[];
+  /** Gambar background untuk hero banner halaman facilities */
+  facilitiesHeroImage?: string;
   activities: Activity[];
   gallery: GalleryImage[];
   testimonials: Testimoni[];

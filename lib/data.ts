@@ -109,6 +109,7 @@ const defaultData: SiteData = {
     { id: "3", title: "Area Publik & Ruang Sosial", image: IMG.lounge, order: 2 },
     { id: "4", title: "Taman", image: IMG.garden, order: 3 },
   ],
+  facilitiesHeroImage: IMG.room,
   activities: [
     {
       id: "1",
