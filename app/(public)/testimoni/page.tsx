@@ -25,6 +25,7 @@ export default function TestimoniPage() {
   const data = loadData();
   const testimonials = [...(data.testimonials || [])].sort((a, b) => a.order - b.order);
   const videoId = data.testimonialsVideoUrl ? getYouTubeVideoId(data.testimonialsVideoUrl) : null;
+  const sections = data.testimonialsPage || {};
 
   return (
     <div>
@@ -52,11 +53,24 @@ export default function TestimoniPage() {
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 py-16 md:py-24 text-left">
           <div className="max-w-2xl space-y-8 md:space-y-10">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
-              <span className="block">Kata Mereka</span>
-              <span className="block">Tentang Atedia</span>
+              {sections.heroTitle ? (
+                sections.heroTitle.split('\n').map((line, i) => (
+                  <span key={i} className="block">{line}</span>
+                ))
+              ) : (
+                <>
+                  <span className="block">Kata Mereka</span>
+                  <span className="block">Tentang Atedia</span>
+                </>
+              )}
             </h1>
+            {sections.heroSubtitle && (
+              <p className="text-lg md:text-xl font-semibold text-white">
+                {sections.heroSubtitle}
+              </p>
+            )}
             <p className="text-base md:text-lg leading-relaxed text-[#F3F4F6]">
-              Dengarkan pengalaman dan apresiasi dari keluarga dan warga Atedia. Setiap cerita adalah bukti komitmen kami untuk memberikan perawatan terbaik dan menciptakan lingkungan yang penuh kasih sayang.
+              {sections.heroDescription || "Dengarkan pengalaman dan apresiasi dari keluarga dan warga Atedia. Setiap cerita adalah bukti komitmen kami untuk memberikan perawatan terbaik dan menciptakan lingkungan yang penuh kasih sayang."}
             </p>
           </div>
         </div>

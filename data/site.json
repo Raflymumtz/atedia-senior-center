@@ -216,7 +216,7 @@
       "quote": "Saya betah karena dapat makan gratis",
       "role": "Penghuni",
       "order": 2,
-      "image": "/uploads/1771478269661-image_4.png"
+      "image": ""
     }
   ],
   "about": {
@@ -237,8 +237,7 @@
       "Pendampingan dan layanan ramah lansia",
       "Lingkungan aman, nyaman, dan bersih"
     ],
-    "footerBannerImage": "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800",
+    "footerBannerImage": "/uploads/1771483583133-review-film-pamali-dusun-pocong.webp",
     "footerBackgroundImage": "/uploads/1771478084975-elderly-couples-cooking-healthy-food-together.jpg"
-  },
-  "activitiesPage": {}
+  }
 }

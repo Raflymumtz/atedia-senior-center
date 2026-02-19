@@ -174,6 +174,8 @@ export interface SiteData {
   testimonials: Testimoni[];
   /** Gambar background untuk hero banner halaman testimonials */
   testimonialsHeroImage?: string;
+  /** Konten halaman Testimonials (hero section) */
+  testimonialsPage?: FacilitiesPageContent;
   /** URL YouTube video untuk section testimoni */
   testimonialsVideoUrl?: string;
   /** Title untuk section video testimoni */
