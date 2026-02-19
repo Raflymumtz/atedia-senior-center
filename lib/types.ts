@@ -71,6 +71,30 @@ export interface FacilityOther {
   order: number;
 }
 
+// Halaman Facilities - section konten
+export interface FacilitiesPageContent {
+  /** Hero section */
+  heroTitle?: string;
+  heroSubtitle?: string;
+  heroDescription?: string;
+  /** Section "Senior Living" */
+  seniorLivingImage?: string;
+  seniorLivingSubtitle?: string;
+  seniorLivingDescription?: string;
+  roomTypeLabel?: string;
+  roomTypeValue?: string;
+  serviceLabel?: string;
+  serviceValue?: string;
+  /** Section "Fasilitas Kami" */
+  facilitiesTitle?: string;
+  facilitiesParagraph1?: string;
+  facilitiesParagraph2?: string;
+  /** Gambar carousel untuk section Fasilitas Kami */
+  facilitiesCarouselImages?: string[];
+  /** Gambar carousel aktivitas (auto-slide 3 detik) */
+  activityCarouselImages?: string[];
+}
+
 // Activities - Aktivitas + Galeri
 export interface Activity {
   id: string;
@@ -132,9 +156,13 @@ export interface SiteData {
   facilitiesOther: FacilityOther[];
   /** Gambar background untuk hero banner halaman facilities */
   facilitiesHeroImage?: string;
+  /** Konten halaman Facilities (section teks) */
+  facilitiesPage?: FacilitiesPageContent;
   activities: Activity[];
   /** Gambar background untuk hero banner halaman activities */
   activitiesHeroImage?: string;
+  /** Konten halaman Activities (hero section) */
+  activitiesPage?: FacilitiesPageContent;
   /** Section CTA untuk halaman activities */
   activitiesCTATitle?: string;
   activitiesCTAParagraph1?: string;

@@ -123,6 +123,20 @@ const defaultData: SiteData = {
     { id: "4", title: "Taman", image: IMG.garden, order: 3 },
   ],
   facilitiesHeroImage: IMG.room,
+  facilitiesPage: {
+    heroTitle: "Kenyamanan yang\nMenghadirkan\nRasa Tenang",
+    heroDescription: "Memberikan dukungan hunian penuh waktu dengan pendampingan menyeluruh setiap hari menghadirkan kenyamanan, keamanan, dan perhatian yang konsisten.",
+    seniorLivingImage: IMG.room,
+    seniorLivingSubtitle: "Kehangatan untuk Hari Tua yang Bahagia",
+    seniorLivingDescription: "Kami menghadirkan program perawatan fleksibel, dari hunian penuh hingga kegiatan sosial yang mendukung kesejahteraan dan kebahagiaan warga.",
+    roomTypeLabel: "Tipe Kamar",
+    roomTypeValue: "Personal | Sharing",
+    serviceLabel: "Layanan",
+    serviceValue: "24 Jam | Fleksibel",
+    facilitiesTitle: "Fasilitas Kami",
+    facilitiesParagraph1: "Setiap sudut dirancang untuk menghadirkan rasa aman dan kenyamanan seperti di rumah sendiri. Dengan lingkungan yang tertata rapi dan fasilitas yang memadai, dan dapat menjalani hari-hari dengan lebih tenang dan percaya diri.",
+    facilitiesParagraph2: "Didukung oleh pendamping yang penuh perhatian dan suasana yang hangat, setiap aktivitas dijalani dengan penuh makna. Kami berkomitmen memberikan perawatan terbaik.",
+  },
   activitiesHeroImage: IMG.exercise,
   testimonialsHeroImage: IMG.seniors,
   testimonialsVideoUrl: "",
@@ -249,6 +263,15 @@ function mergeWithDefaults(parsed: Record<string, unknown>): SiteData {
   // Deep-merge about so partial admin saves keep default fields
   if (parsed.about && typeof parsed.about === "object") {
     merged.about = { ...defaultData.about, ...(parsed.about as Record<string, unknown>) } as SiteData["about"];
+  }
+  // Deep-merge facilitiesPage so partial admin saves keep default fields
+  if (defaultData.facilitiesPage) {
+    merged.facilitiesPage = {
+      ...defaultData.facilitiesPage,
+      ...(parsed.facilitiesPage && typeof parsed.facilitiesPage === "object"
+        ? (parsed.facilitiesPage as Record<string, unknown>)
+        : {}),
+    } as SiteData["facilitiesPage"];
   }
   // Migrate old 'facilities' to facilitiesMain if facilitiesMain is empty
   if (

@@ -8,6 +8,7 @@ export default function ActivitiesPage() {
   const data = loadData();
   const activities = [...(data.activities || [])].sort((a, b) => a.order - b.order);
   const gallery = [...(data.gallery || [])].sort((a, b) => a.order - b.order);
+  const sections = data.activitiesPage || {};
   
   // Gambar untuk carousel aktivitas
   const activityImages = activities
@@ -46,11 +47,24 @@ export default function ActivitiesPage() {
         <div className="relative z-10 w-full max-w-6xl mx-auto px-4 py-16 md:py-24 text-left">
           <div className="max-w-2xl space-y-8 md:space-y-10">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold leading-tight text-white">
-              <span className="block">Hidup Bermakna</span>
-              <span className="block">Setiap Hari</span>
+              {sections.heroTitle ? (
+                sections.heroTitle.split('\n').map((line, i) => (
+                  <span key={i} className="block">{line}</span>
+                ))
+              ) : (
+                <>
+                  <span className="block">Hidup Bermakna</span>
+                  <span className="block">Setiap Hari</span>
+                </>
+              )}
             </h1>
+            {sections.heroSubtitle && (
+              <p className="text-lg md:text-xl font-semibold text-white">
+                {sections.heroSubtitle}
+              </p>
+            )}
             <p className="text-base md:text-lg leading-relaxed text-[#F3F4F6]">
-              Di Atedia, setiap hari adalah kesempatan untuk tetap aktif, sehat, dan terhubung. Berbagai aktivitas dirancang untuk mendukung kesehatan fisik, menjaga ketajaman pikiran, serta mempererat kebersamaan.
+              {sections.heroDescription || "Di Atedia, setiap hari adalah kesempatan untuk tetap aktif, sehat, dan terhubung. Berbagai aktivitas dirancang untuk mendukung kesehatan fisik, menjaga ketajaman pikiran, serta mempererat kebersamaan."}
             </p>
           </div>
         </div>
