@@ -115,25 +115,33 @@
   "activities": [
     {
       "id": "1",
-      "title": "Senam Ringan",
+      "title": "Aktivitas Kreatif dan Kerajian",
       "description": "Olahraga rutin untuk menjaga kebugaran tubuh.",
       "date": "Setiap Senin & Kamis",
       "order": 1
     },
     {
       "id": "2",
-      "title": "Kegiatan Kreatif",
+      "title": "Cek Kesehatan Rutin",
       "description": "Melukis, kerajinan tangan, dan kegiatan seni lainnya.",
       "date": "Setiap Selasa",
       "order": 2
     },
     {
       "id": "3",
-      "title": "Bersosialisasi",
+      "title": "Makan Bergizi Setiap Hari",
       "description": "Acara berkumpul, ngobrol, dan permainan kelompok.",
       "date": "Setiap minggu",
       "order": 3
+    },
+    {
+      "id": "4",
+      "title": "Kegiatan Senam dan Terapi Gerak",
+      "description": "Acara berkumpul, ngobrol, dan permainan kelompok.",
+      "date": "Setiap minggu",
+      "order": 4
     }
+
   ],
   "gallery": [
     {

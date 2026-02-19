@@ -109,6 +109,15 @@ export interface SiteData {
   /** Gambar background untuk hero banner halaman facilities */
   facilitiesHeroImage?: string;
   activities: Activity[];
+  /** Gambar background untuk hero banner halaman activities */
+  activitiesHeroImage?: string;
+  /** Section CTA untuk halaman activities */
+  activitiesCTATitle?: string;
+  activitiesCTAParagraph1?: string;
+  activitiesCTAParagraph2?: string;
+  activitiesCTAImage?: string;
+  activitiesCTAButtonText?: string;
+  activitiesCTAButtonLink?: string;
   gallery: GalleryImage[];
   testimonials: Testimoni[];
   about: AboutContent;

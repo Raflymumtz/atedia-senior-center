@@ -110,6 +110,15 @@ const defaultData: SiteData = {
     { id: "4", title: "Taman", image: IMG.garden, order: 3 },
   ],
   facilitiesHeroImage: IMG.room,
+  activitiesHeroImage: IMG.exercise,
+  activitiesCTATitle: "Ciptakan Pengalaman Tak Terlupakan di Atedia",
+  activitiesCTAParagraph1:
+    "Nikmati suasana yang hangat, nyaman, dan penuh makna di setiap momen yang Anda habiskan. Di Atedia, setiap detail dirancang untuk menghadirkan pengalaman istimewa. Dengan layanan profesional, fasilitas yang mendukung gaya hidup aktif dan sehat, serta komunitas yang saling peduli, kami memastikan setiap hari terasa lebih bermakna dan membahagiakan.",
+  activitiesCTAParagraph2:
+    "Setiap tawa yang tercipta, setiap cerita yang dibagikan, dan setiap kebersamaan yang terjalin menjadi bagian dari perjalanan hidup yang indah. Kami memahami bahwa setiap individu memiliki kisah dan kenangan berharga, karena itu Atedia hadir untuk merawat, menghargai, dan menemani setiap langkah dengan penuh cinta dan perhatian.",
+  activitiesCTAImage: IMG.seniors,
+  activitiesCTAButtonText: "Book Senior Living",
+  activitiesCTAButtonLink: "#",
   activities: [
     {
       id: "1",
