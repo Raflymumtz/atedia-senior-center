@@ -26,7 +26,7 @@ export default function PublicFooter() {
           : undefined
       }
     >
-      {hasBgImage && (
+      {hasBgImage && about.footerBackgroundImage && (
         <>
           <div className="absolute inset-0 z-0">
             <Image
