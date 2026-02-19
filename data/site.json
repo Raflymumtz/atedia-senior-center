@@ -60,6 +60,7 @@
       "order": 3
     }
   ],
+  "servicesHeroImage": "https://images.unsplash.com/photo-1559757175-5700dde675bc?w=800",
   "facilitiesMain": [
     {
       "id": "1",
@@ -110,8 +111,26 @@
       "title": "Taman",
       "image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=800",
       "order": 3
+    },
+    {
+      "id": "1771469563110",
+      "title": "Fasilitas Coba",
+      "order": 4,
+      "image": "/uploads/1771469574852-ikn.jpg"
     }
   ],
+  "facilitiesHeroImage": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800",
+  "activitiesHeroImage": "https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=800",
+  "testimonialsHeroImage": "",
+  "testimonialsVideoUrl": "https://www.youtube.com/watch?v=9qpuXothb-8",
+  "testimonialsVideoTitle": "Kisah Nyata Bersama Atedia",
+  "testimonialsVideoDescription": "Saksikan pengalaman langsung dari penghuni dan keluarga yang telah merasakan kenyamanan, perhatian, dan kualitas hidup yang lebih baik di Atedia Senior Center. Testimoni ini menggambarkan bagaimana Atedia menjadi rumah kedua yang hangat, aman, dan penuh kebersamaan.",
+  "activitiesCTATitle": "Ciptakan Pengalaman Tak Terlupakan di Atedia",
+  "activitiesCTAParagraph1": "Nikmati suasana yang hangat, nyaman, dan penuh makna di setiap momen yang Anda habiskan. Di Atedia, setiap detail dirancang untuk menghadirkan pengalaman istimewa. Dengan layanan profesional, fasilitas yang mendukung gaya hidup aktif dan sehat, serta komunitas yang saling peduli, kami memastikan setiap hari terasa lebih bermakna dan membahagiakan.",
+  "activitiesCTAParagraph2": "Setiap tawa yang tercipta, setiap cerita yang dibagikan, dan setiap kebersamaan yang terjalin menjadi bagian dari perjalanan hidup yang indah. Kami memahami bahwa setiap individu memiliki kisah dan kenangan berharga, karena itu Atedia hadir untuk merawat, menghargai, dan menemani setiap langkah dengan penuh cinta dan perhatian.",
+  "activitiesCTAImage": "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=800",
+  "activitiesCTAButtonText": "Book Senior Living",
+  "activitiesCTAButtonLink": "#",
   "activities": [
     {
       "id": "1",
@@ -141,7 +160,6 @@
       "date": "Setiap minggu",
       "order": 4
     }
-
   ],
   "gallery": [
     {
@@ -179,10 +197,6 @@
       "order": 2
     }
   ],
-  "testimonialsHeroImage": "",
-  "testimonialsVideoUrl": "https://www.youtube.com/watch?v=9qpuXothb-8",
-  "testimonialsVideoTitle": "Kisah Nyata Bersama Atedia",
-  "testimonialsVideoDescription": "Saksikan pengalaman langsung dari penghuni dan keluarga yang telah merasakan kenyamanan, perhatian, dan kualitas hidup yang lebih baik di Atedia Senior Center. Testimoni ini menggambarkan bagaimana Atedia menjadi rumah kedua yang hangat, aman, dan penuh kebersamaan.",
   "about": {
     "title": "Tentang Atedia Senior Center",
     "description": "Di Atedia, kami percaya masa tua adalah anugerah, kesempatan untuk menikmati hidup dengan penuh arti. Kami hadir untuk membantu menjalani hari-hari dengan aman, nyaman, dan tetap mandiri, di tengah komunitas yang saling mendukung. Dengan lingkungan yang hangat dan berkualitas, orang tua dapat tetap berkarya dan bersosialisasi. Atedia membuat masa tua menjadi momen yang damai, bermakna, dan menyenangkan.",
