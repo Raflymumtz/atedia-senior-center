@@ -63,18 +63,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      {/* Section dekoratif dengan daun - seperti home */}
-      <section className="py-14 px-4 bg-white">
-        <div className="max-w-4xl mx-auto flex items-center justify-center gap-4 md:gap-8 flex-wrap">
-          <LeafDecoration />
-          <h2 className="text-2xl md:text-3xl font-medium text-atedia-sage italic text-center">
-            {tagline}
-          </h2>
-          <LeafDecoration />
-        </div>
-      </section>
-
       {/* Blok Informasi + Kontak (tema seperti footer desain: putih, ceklist, tombol WA & Get Directions) */}
       <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
@@ -215,30 +203,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Deskripsi, Misi, Visi - kartu putih */}
-      <section className="py-16 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <div className="bg-atedia-cream/50 rounded-2xl shadow-md p-8 md:p-12 border border-atedia-warm/20">
-            <p className="text-atedia-brown/90 leading-relaxed mb-8 text-lg">
-              {about.description}
-            </p>
-            <div className="grid md:grid-cols-2 gap-8">
-              {about.mission && (
-                <div>
-                  <h3 className="text-lg font-semibold text-atedia-sage mb-2">Misi</h3>
-                  <p className="text-atedia-brown/80">{about.mission}</p>
-                </div>
-              )}
-              {about.vision && (
-                <div>
-                  <h3 className="text-lg font-semibold text-atedia-sage mb-2">Visi</h3>
-                  <p className="text-atedia-brown/80">{about.vision}</p>
-                </div>
-              )}
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }

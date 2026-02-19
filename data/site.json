@@ -128,7 +128,7 @@
     "facilitiesCarouselImages": []
   },
   "activitiesHeroImage": "/uploads/1771482890271-review-film-pamali-dusun-pocong.webp",
-  "testimonialsHeroImage": "",
+  "testimonialsHeroImage": "/uploads/1771484276273-review-film-pamali-dusun-pocong.webp",
   "testimonialsVideoUrl": "https://www.youtube.com/watch?v=9qpuXothb-8",
   "testimonialsVideoTitle": "Kisah Nyata Bersama Atedia",
   "testimonialsVideoDescription": "Saksikan pengalaman langsung dari penghuni dan keluarga yang telah merasakan kenyamanan, perhatian, dan kualitas hidup yang lebih baik di Atedia Senior Center. Testimoni ini menggambarkan bagaimana Atedia menjadi rumah kedua yang hangat, aman, dan penuh kebersamaan.",
@@ -235,9 +235,11 @@
     "infoItems": [
       "Program harian & aktivitas sosial",
       "Pendampingan dan layanan ramah lansia",
-      "Lingkungan aman, nyaman, dan bersih"
+      "Lingkungan aman, nyaman, dan bersih",
+      "Tes"
     ],
     "footerBannerImage": "/uploads/1771483583133-review-film-pamali-dusun-pocong.webp",
-    "footerBackgroundImage": "/uploads/1771478084975-elderly-couples-cooking-healthy-food-together.jpg"
-  }
+    "footerBackgroundImage": "/uploads/1771483669793-ikn.jpg"
+  },
+  "testimonialsPage": {}
 }
