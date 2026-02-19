@@ -120,5 +120,13 @@ export interface SiteData {
   activitiesCTAButtonLink?: string;
   gallery: GalleryImage[];
   testimonials: Testimoni[];
+  /** Gambar background untuk hero banner halaman testimonials */
+  testimonialsHeroImage?: string;
+  /** URL YouTube video untuk section testimoni */
+  testimonialsVideoUrl?: string;
+  /** Title untuk section video testimoni */
+  testimonialsVideoTitle?: string;
+  /** Deskripsi untuk section video testimoni */
+  testimonialsVideoDescription?: string;
   about: AboutContent;
 }

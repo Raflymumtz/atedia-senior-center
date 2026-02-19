@@ -111,6 +111,11 @@ const defaultData: SiteData = {
   ],
   facilitiesHeroImage: IMG.room,
   activitiesHeroImage: IMG.exercise,
+  testimonialsHeroImage: IMG.seniors,
+  testimonialsVideoUrl: "",
+  testimonialsVideoTitle: "Kisah Nyata Bersama Atedia",
+  testimonialsVideoDescription:
+    "Saksikan pengalaman langsung dari penghuni dan keluarga yang telah merasakan kenyamanan, perhatian, dan kualitas hidup yang lebih baik di Atedia Senior Center. Testimoni ini menggambarkan bagaimana Atedia menjadi rumah kedua yang hangat, aman, dan penuh kebersamaan.",
   activitiesCTATitle: "Ciptakan Pengalaman Tak Terlupakan di Atedia",
   activitiesCTAParagraph1:
     "Nikmati suasana yang hangat, nyaman, dan penuh makna di setiap momen yang Anda habiskan. Di Atedia, setiap detail dirancang untuk menghadirkan pengalaman istimewa. Dengan layanan profesional, fasilitas yang mendukung gaya hidup aktif dan sehat, serta komunitas yang saling peduli, kami memastikan setiap hari terasa lebih bermakna dan membahagiakan.",

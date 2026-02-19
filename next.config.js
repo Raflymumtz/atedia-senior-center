@@ -7,6 +7,7 @@ const nextConfig = {
       { protocol: "https", hostname: "images.pexels.com", pathname: "/**" },
       { protocol: "https", hostname: "picsum.photos", pathname: "/**" },
       { protocol: "https", hostname: "lh3.googleusercontent.com", pathname: "/**" },
+      { protocol: "https", hostname: "img.youtube.com", pathname: "/**" },
     ],
   },
 };
