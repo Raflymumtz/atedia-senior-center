@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { loadData } from "@/lib/data";
 
 export default function PublicFooter() {
@@ -13,9 +14,36 @@ export default function PublicFooter() {
       ? `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(about.address)}`
       : "#");
 
+  const hasBgImage = !!about?.footerBackgroundImage;
+  const bgColor = about?.footerBackgroundColor?.trim() || (hasBgImage ? undefined : undefined);
+
   return (
-    <footer className="w-full bg-atedia-brown text-white mt-auto overflow-hidden">
-      <div className="w-full max-w-[1200px] mx-auto px-4 pt-7 pb-4 box-border">
+    <footer
+      className="w-full text-white mt-auto overflow-hidden relative"
+      style={
+        !hasBgImage && bgColor
+          ? { backgroundColor: bgColor }
+          : undefined
+      }
+    >
+      {hasBgImage && (
+        <>
+          <div className="absolute inset-0 z-0">
+            <Image
+              src={about.footerBackgroundImage}
+              alt=""
+              fill
+              className="object-cover"
+              sizes="100vw"
+            />
+          </div>
+          <div className="absolute inset-0 z-[1] bg-black/60" aria-hidden />
+        </>
+      )}
+      {!hasBgImage && !bgColor && (
+        <div className="absolute inset-0 z-0 bg-atedia-brown" aria-hidden />
+      )}
+      <div className="relative z-10 w-full max-w-[1200px] mx-auto px-4 pt-7 pb-4 box-border">
         {/* Header: judul + CTA */}
         <div className="flex flex-wrap items-start justify-between gap-3 mb-4">
           <div>

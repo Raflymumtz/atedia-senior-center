@@ -128,36 +128,19 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Temukan Kenyamanan Sejati - full-width banner */}
-      <section className="relative min-h-[50vh] flex items-center overflow-hidden">
-        <div className="absolute inset-0 z-0">
-          {home.temukanKenyamananImage ? (
-            <Image
-              src={home.temukanKenyamananImage}
-              alt="Temukan Kenyamanan Sejati"
-              fill
-              className="object-cover"
-              sizes="100vw"
-            />
-          ) : (
-            <div className="absolute inset-0 bg-atedia-sage" />
-          )}
-          <div className="absolute inset-0 bg-black/50" />
-        </div>
-        <div className="relative z-10 w-full max-w-6xl mx-auto px-4 py-16">
-          <div className="max-w-md">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white leading-tight mb-6">
-              {home.temukanKenyamananTitle.split(" ").map((word, i) => (
-                <span key={i} className="block">{word}</span>
-              ))}
-            </h2>
-            <div className="w-14 h-14 rounded-full bg-white/20 flex items-center justify-center">
-              <svg className="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 24 24" aria-hidden>
-                <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z" />
-              </svg>
-            </div>
-          </div>
-        </div>
+      {/* Temukan Kenyamanan Sejati - banner gambar saja, tanpa teks */}
+      <section className="relative w-full max-w-[1150px] mx-auto overflow-hidden" style={{ aspectRatio: "1604/732" }}>
+        {home.temukanKenyamananImage ? (
+          <Image
+            src={home.temukanKenyamananImage}
+            alt=""
+            fill
+            className="object-cover"
+            sizes="(max-width: 1000px) 100vw, 1000px"
+          />
+        ) : (
+          <div className="absolute inset-0 bg-atedia-sage" />
+        )}
       </section>
 
       {/* Keistimewaan yang Kami Tawarkan - three cards with decorative leaves */}

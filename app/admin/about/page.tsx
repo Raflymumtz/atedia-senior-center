@@ -203,6 +203,25 @@ export default function AdminAboutPage() {
             />
           </div>
           <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Gambar background footer (opsional)</label>
+            <AdminImageUpload
+              value={data.footerBackgroundImage || ""}
+              onChange={(url) => handleChange("footerBackgroundImage", url)}
+              compact
+            />
+            <p className="text-xs text-gray-500 mt-1">Kosongkan untuk warna solid. Jika diisi, gambar dipakai dengan overlay gelap agar teks terbaca.</p>
+          </div>
+          <div>
+            <label className="block text-sm font-medium text-gray-700 mb-1">Warna background footer (hex, opsional)</label>
+            <input
+              type="text"
+              value={data.footerBackgroundColor || ""}
+              onChange={(e) => handleChange("footerBackgroundColor", e.target.value)}
+              className="w-full px-3 py-2 border rounded-lg"
+              placeholder="#5c4a3d (kosongkan = default cokelat)"
+            />
+          </div>
+          <div>
             <label className="block text-sm font-medium text-gray-700 mb-2">Daftar Informasi (untuk footer)</label>
             {(data.infoItems || []).map((item, i) => (
               <div key={i} className="flex gap-2 mb-2">

@@ -38,7 +38,7 @@ const defaultData: SiteData = {
     ],
     mengapaHarusImage: IMG.caregiver,
     temukanKenyamananTitle: "Temukan Kenyamanan Sejati",
-    temukanKenyamananImage: IMG.exercise,
+    temukanKenyamananImage: "/images/Temukan Kenyamanan Sejati.png",
     featuresTitle: "Keistimewaan yang Kami Tawarkan",
     features: [
       {
@@ -93,6 +93,18 @@ const defaultData: SiteData = {
       order: 2,
     },
   ],
+  servicePage: {
+    heroTitle: "Pendampingan Sepenuh Hati",
+    heroCaption:
+      "Kami mendampingi setiap langkah dengan perhatian yang tulus, menciptakan hari-hari yang lebih nyaman, aktif, dan penuh ketenangan.",
+    heroSlides: [IMG.caregiver],
+    sectionTitle: "Layanan Profesional Kami",
+    sectionCaption1:
+      "Kami menyediakan berbagai layanan profesional yang dirancang khusus untuk memenuhi kebutuhan warga Atedia. Setiap layanan diberikan dengan pendampingan penuh perhatian dan komitmen untuk memberikan kualitas terbaik.",
+    sectionCaption2:
+      "Dari perawatan kesehatan hingga aktivitas rekreasi, kami memastikan setiap warga mendapatkan dukungan yang dibutuhkan untuk menjalani hari-hari dengan nyaman, aman, dan bahagia. Tim profesional kami siap mendampingi dengan penuh dedikasi.",
+    carouselSlides: [IMG.caregiver, IMG.seniors, IMG.exercise],
+  },
   servicesHeroImage: IMG.caregiver,
   facilitiesMain: [
     {
@@ -220,6 +232,19 @@ function mergeWithDefaults(parsed: Record<string, unknown>): SiteData {
     if (parsed[key] !== undefined) {
       merged[key] = parsed[key];
     }
+  }
+  // Deep-merge home so partial admin saves tidak menghapus field (mis. temukanKenyamananImage)
+  if (parsed.home && typeof parsed.home === "object") {
+    merged.home = { ...defaultData.home, ...(parsed.home as Record<string, unknown>) } as SiteData["home"];
+  }
+  // Deep-merge servicePage so partial admin saves keep default fields
+  if (defaultData.servicePage) {
+    merged.servicePage = {
+      ...defaultData.servicePage,
+      ...(parsed.servicePage && typeof parsed.servicePage === "object"
+        ? (parsed.servicePage as Record<string, unknown>)
+        : {}),
+    } as SiteData["servicePage"];
   }
   // Deep-merge about so partial admin saves keep default fields
   if (parsed.about && typeof parsed.about === "object") {
